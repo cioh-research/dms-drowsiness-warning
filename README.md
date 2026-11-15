@@ -3,7 +3,7 @@
 Code and de-identified data for
 
 > Oh, C., Kim, W., Lee, M., Pitts, B.J. *Warning drowsy drivers before microsleeps: short eyelid closures
-> complement PERCLOS and eye-closure duration criteria.* Accident Analysis and Prevention (submitted).
+> complement PERCLOS and eye-closure duration criteria.* 
 
 Camera-based driver monitoring systems usually warn on PERCLOS and on the duration of a single eye closure (ECD).
 In a simulator study with 46 drivers, these criteria warned only about one-third of drivers within 2 min before
@@ -32,6 +32,8 @@ run_all.sh                  runs the whole pipeline
 ## Quick start
 
 ```bash
+git clone https://github.com/cioh-research/dms-drowsiness-warning.git
+cd dms-drowsiness-warning
 python -m pip install -r requirements.txt
 ./run_all.sh            # about 1-3 h; ml.py and cv.py are the slowest steps
 ```
