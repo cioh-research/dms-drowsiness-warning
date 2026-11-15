@@ -1,0 +1,208 @@
+quantity,manuscript,reproduced,difference
+T2 row1 warned_n,3.0,3.0,0.0
+T2 row1 FA/h,0.703,0.703,0.0
+T2 row2 warned_n,1.0,1.0,0.0
+T2 row2 FA/h,0.281,0.281,0.0
+T2 row3 warned_n,0.0,0.0,0.0
+T2 row3 FA/h,0.281,0.281,0.0
+T2 row4 warned_n,3.0,3.0,0.0
+T2 row4 FA/h,0.703,0.703,0.0
+T2 row5 warned_n,0.0,0.0,0.0
+T2 row5 FA/h,0.141,0.141,0.0
+T2 row6 warned_n,12.0,12.0,0.0
+T2 row6 FA/h,1.405,1.405,0.0
+T2 row7 warned_n,4.0,4.0,0.0
+T2 row7 FA/h,0.422,0.422,0.0
+T2 row8 warned_n,2.0,2.0,0.0
+T2 row8 FA/h,0.281,0.281,0.0
+T2 row9 warned_n,14.0,14.0,0.0
+T2 row9 FA/h,1.827,1.827,0.0
+T3 stea 2.5 rate%,57.947,58.579,0.632
+T3 stea 5.0 rate%,73.684,73.368,-0.316
+T3 stea 8.0 rate%,79.211,79.263,0.053
+T3 relax_p1 2.5 rate%,37.053,37.211,0.158
+T3 relax_p1 5.0 rate%,56.0,55.789,-0.211
+T3 relax_p1 8.0 rate%,56.158,56.053,-0.105
+T3 relax_multi 2.5 rate%,37.158,37.368,0.211
+T3 relax_multi 5.0 rate%,53.0,53.474,0.474
+T3 relax_multi 8.0 rate%,53.105,53.632,0.526
+T3 relax_p30 2.5 rate%,36.895,36.895,0.0
+T3 relax_p30 5.0 rate%,57.211,57.211,0.0
+T3 relax_p30 8.0 rate%,65.684,65.947,0.263
+T3 relax_ecd 2.5 rate%,39.737,39.684,-0.053
+T3 relax_ecd 5.0 rate%,57.632,58.842,1.211
+T3 relax_ecd 8.0 rate%,71.053,70.737,-0.316
+T3 count30 2.5 rate%,44.158,44.737,0.579
+T3 count30 5.0 rate%,50.842,51.0,0.158
+T3 count30 8.0 rate%,77.263,76.895,-0.368
+T3 cusum 2.5 rate%,45.263,46.211,0.947
+T3 cusum 5.0 rate%,60.105,60.632,0.526
+T3 cusum 8.0 rate%,75.0,75.263,0.263
+T3 ewma 2.5 rate%,40.474,40.789,0.316
+T3 ewma 5.0 rate%,65.316,66.211,0.895
+T3 ewma 8.0 rate%,77.684,77.947,0.263
+T3 gb 2.5 rate%,42.98,41.23,-1.75
+T3 gb 5.0 rate%,60.53,64.91,4.38
+T3 gb 8.0 rate%,78.95,78.07,-0.88
+T3 lr 2.5 rate%,40.26,42.11,1.85
+T3 lr 5.0 rate%,69.21,68.42,-0.79
+T3 lr 8.0 rate%,72.11,71.58,-0.53
+T4 Full SCA 2.5 rate%,57.947,58.579,0.632
+T4 Full SCA 5.0 rate%,73.684,73.368,-0.316
+T4 Full SCA 8.0 rate%,79.211,79.263,0.053
+T4 w/o persistence (p = 0) 2.5 rate%,57.842,58.895,1.053
+T4 w/o persistence (p = 0) 5.0 rate%,74.263,74.737,0.474
+T4 w/o persistence (p = 0) 8.0 rate%,81.368,80.632,-0.737
+T4 w/o lower bound (d0 = 0) 2.5 rate%,52.737,53.211,0.474
+T4 w/o lower bound (d0 = 0) 5.0 rate%,69.368,69.368,0.0
+T4 w/o lower bound (d0 = 0) 8.0 rate%,76.0,76.211,0.211
+T4 w/o ECD-boundary exclusion 2.5 rate%,57.789,57.842,0.053
+T4 w/o ECD-boundary exclusion 5.0 rate%,74.947,75.053,0.105
+T4 w/o ECD-boundary exclusion 8.0 rate%,79.895,79.105,-0.789
+T4 w/o duration mark (unit weight) 2.5 rate%,61.0,61.474,0.474
+T4 w/o duration mark (unit weight) 5.0 rate%,74.789,75.316,0.526
+T4 w/o duration mark (unit weight) 8.0 rate%,82.895,82.105,-0.789
+T4 w/o time decay (event-indexed decay) 2.5 rate%,57.684,57.158,-0.526
+T4 w/o time decay (event-indexed decay) 5.0 rate%,65.263,65.053,-0.211
+T4 w/o time decay (event-indexed decay) 8.0 rate%,65.316,65.105,-0.211
+T4 Boxcar kernel instead of exponential 2.5 rate%,57.632,57.632,0.0
+T4 Boxcar kernel instead of exponential 5.0 rate%,75.789,75.368,-0.421
+T4 Boxcar kernel instead of exponential 8.0 rate%,77.737,77.947,0.211
+T4 Fixed λ = 60 s 2.5 rate%,45.789,45.316,-0.474
+T4 Fixed λ = 60 s 5.0 rate%,71.737,71.789,0.053
+T4 Fixed λ = 60 s 8.0 rate%,78.316,78.474,0.158
+T4 simplified SCA 2.5 rate%,48.842,49.421,0.579
+T4 simplified SCA 5.0 rate%,69.895,69.263,-0.632
+T4 simplified SCA 8.0 rate%,73.158,73.526,0.368
+T5 ms>=1.0 standard rate%,0.0,0.0,0.0
+T5 ms>=1.0 stea 2.5 rate%,39.355,40.065,0.71
+T5 ms>=1.0 stea 5.0 rate%,58.516,59.097,0.581
+T5 ms>=1.0 stea 8.0 rate%,66.452,66.0,-0.452
+T5 ms>=1.0 relax_p1 2.5 rate%,6.71,6.452,-0.258
+T5 ms>=1.0 relax_p1 5.0 rate%,32.774,32.387,-0.387
+T5 ms>=1.0 relax_p1 8.0 rate%,32.774,32.516,-0.258
+T5 ms>=1.0 relax_ecd 2.5 rate%,19.419,19.419,0.0
+T5 ms>=1.0 relax_ecd 5.0 rate%,31.29,32.258,0.968
+T5 ms>=1.0 relax_ecd 8.0 rate%,51.613,51.355,-0.258
+T5 ms>=1.0 count30 2.5 rate%,14.968,15.742,0.774
+T5 ms>=1.0 count30 5.0 rate%,31.677,32.516,0.839
+T5 ms>=1.0 count30 8.0 rate%,61.484,60.774,-0.71
+T5 ms>=1.0 cusum 2.5 rate%,25.548,26.839,1.29
+T5 ms>=1.0 cusum 5.0 rate%,45.742,46.065,0.323
+T5 ms>=1.0 cusum 8.0 rate%,62.065,62.516,0.452
+T5 ms>=1.0 ewma 2.5 rate%,15.097,15.871,0.774
+T5 ms>=1.0 ewma 5.0 rate%,52.194,53.226,1.032
+T5 ms>=1.0 ewma 8.0 rate%,64.645,64.645,0.0
+T5 ms>=2.0 standard rate%,45.833,45.833,0.0
+T5 ms>=2.0 stea 2.5 rate%,67.583,67.667,0.083
+T5 ms>=2.0 stea 5.0 rate%,77.75,78.25,0.5
+T5 ms>=2.0 stea 8.0 rate%,84.667,84.417,-0.25
+T5 ms>=2.0 relax_p1 2.5 rate%,45.833,45.833,0.0
+T5 ms>=2.0 relax_p1 5.0 rate%,51.75,51.167,-0.583
+T5 ms>=2.0 relax_p1 8.0 rate%,51.833,51.583,-0.25
+T5 ms>=2.0 relax_ecd 2.5 rate%,54.667,54.583,-0.083
+T5 ms>=2.0 relax_ecd 5.0 rate%,69.5,70.333,0.833
+T5 ms>=2.0 relax_ecd 8.0 rate%,79.167,79.0,-0.167
+T5 ms>=2.0 count30 2.5 rate%,52.333,52.417,0.083
+T5 ms>=2.0 count30 5.0 rate%,57.333,57.583,0.25
+T5 ms>=2.0 count30 8.0 rate%,84.333,84.75,0.417
+T5 ms>=2.0 cusum 2.5 rate%,58.167,58.75,0.583
+T5 ms>=2.0 cusum 5.0 rate%,73.25,72.667,-0.583
+T5 ms>=2.0 cusum 8.0 rate%,79.917,79.417,-0.5
+T5 ms>=2.0 ewma 2.5 rate%,58.917,59.167,0.25
+T5 ms>=2.0 ewma 5.0 rate%,78.667,78.667,-0.0
+T5 ms>=2.0 ewma 8.0 rate%,87.0,86.667,-0.333
+T6 H120 drowsy stea 2.5 warned_n (split 0),23.0,22.0,-1.0
+T6 H120 drowsy stea 5.0 warned_n (split 0),28.0,27.0,-1.0
+T6 H120 drowsy stea 8.0 warned_n (split 0),29.0,30.0,1.0
+T6 H120 drowsy relax_p1 2.5 warned_n (split 0),14.0,14.0,0.0
+T6 H120 drowsy relax_p1 5.0 warned_n (split 0),21.0,23.0,2.0
+T6 H120 drowsy relax_p1 8.0 warned_n (split 0),21.0,23.0,2.0
+T6 H60 drowsy stea 2.5 warned_n (split 0),18.0,17.0,-1.0
+T6 H60 drowsy stea 5.0 warned_n (split 0),24.0,23.0,-1.0
+T6 H60 drowsy stea 8.0 warned_n (split 0),26.0,27.0,1.0
+T6 H60 drowsy relax_p1 2.5 warned_n (split 0),14.0,14.0,0.0
+T6 H60 drowsy relax_p1 5.0 warned_n (split 0),20.0,22.0,2.0
+T6 H60 drowsy relax_p1 8.0 warned_n (split 0),20.0,22.0,2.0
+T6 H180 drowsy stea 2.5 warned_n (split 0),25.0,24.0,-1.0
+T6 H180 drowsy stea 5.0 warned_n (split 0),30.0,30.0,0.0
+T6 H180 drowsy stea 8.0 warned_n (split 0),32.0,33.0,1.0
+T6 H180 drowsy relax_p1 2.5 warned_n (split 0),18.0,17.0,-1.0
+T6 H180 drowsy relax_p1 5.0 warned_n (split 0),23.0,24.0,1.0
+T6 H180 drowsy relax_p1 8.0 warned_n (split 0),23.0,24.0,1.0
+T6 H120 nonactive stea 2.5 warned_n (split 0),19.0,16.0,-3.0
+T6 H120 nonactive stea 5.0 warned_n (split 0),26.0,26.0,0.0
+T6 H120 nonactive stea 8.0 warned_n (split 0),30.0,29.0,-1.0
+T6 H120 nonactive relax_p1 2.5 warned_n (split 0),9.0,13.0,4.0
+T6 H120 nonactive relax_p1 5.0 warned_n (split 0),17.0,15.0,-2.0
+T6 H120 nonactive relax_p1 8.0 warned_n (split 0),17.0,15.0,-2.0
+T7 clean0 standard 0.0 rate%,36.842,36.842,0.0
+T7 clean0 standard 0.0 FA/h,1.827,1.827,0.0
+T7 clean0 stea 2.5 rate%,60.526,57.895,-2.632
+T7 clean0 stea 2.5 FA/h,2.81,3.232,0.422
+T7 clean0 stea 5.0 rate%,73.684,71.053,-2.632
+T7 clean0 stea 5.0 FA/h,5.339,5.199,-0.141
+T7 clean0 stea 8.0 rate%,76.316,78.947,2.632
+T7 clean0 stea 8.0 FA/h,6.463,8.009,1.546
+T7 clean0 relax_p1 2.5 rate%,36.842,36.842,0.0
+T7 clean0 relax_p1 2.5 FA/h,1.827,1.827,0.0
+T7 clean0 relax_p1 5.0 rate%,55.263,60.526,5.263
+T7 clean0 relax_p1 5.0 FA/h,3.372,3.372,0.0
+T7 clean0 relax_p1 8.0 rate%,55.263,60.526,5.263
+T7 clean0 relax_p1 8.0 FA/h,3.372,3.513,0.141
+T7 fps2 standard 0.0 rate%,36.842,36.842,0.0
+T7 fps2 standard 0.0 FA/h,1.686,1.686,0.0
+T7 fps2 stea 2.5 rate%,63.158,63.158,0.0
+T7 fps2 stea 2.5 FA/h,2.81,2.95,0.14
+T7 fps2 stea 5.0 rate%,76.316,76.316,0.0
+T7 fps2 stea 5.0 FA/h,5.76,6.041,0.281
+T7 fps2 stea 8.0 rate%,78.947,78.947,0.0
+T7 fps2 stea 8.0 FA/h,7.025,8.57,1.545
+T7 fps2 relax_p1 2.5 rate%,36.842,36.842,0.0
+T7 fps2 relax_p1 2.5 FA/h,1.686,1.686,0.0
+T7 fps2 relax_p1 5.0 rate%,60.526,63.158,2.632
+T7 fps2 relax_p1 5.0 FA/h,3.653,3.512,-0.14
+T7 fps2 relax_p1 8.0 rate%,60.526,63.158,2.632
+T7 fps2 relax_p1 8.0 FA/h,3.653,3.372,-0.281
+T7 fps3 standard 0.0 rate%,31.579,31.579,0.0
+T7 fps3 standard 0.0 FA/h,1.967,1.967,0.0
+T7 fps3 stea 2.5 rate%,55.263,57.895,2.632
+T7 fps3 stea 2.5 FA/h,3.372,3.372,0.0
+T7 fps3 stea 5.0 rate%,78.947,76.316,-2.632
+T7 fps3 stea 5.0 FA/h,6.463,6.744,0.281
+T7 fps3 stea 8.0 rate%,81.579,81.579,0.0
+T7 fps3 stea 8.0 FA/h,8.57,8.851,0.281
+T7 fps3 relax_p1 2.5 rate%,31.579,31.579,0.0
+T7 fps3 relax_p1 2.5 FA/h,2.107,2.107,0.0
+T7 fps3 relax_p1 5.0 rate%,55.263,57.895,2.632
+T7 fps3 relax_p1 5.0 FA/h,3.934,3.934,0.0
+T7 fps3 relax_p1 8.0 rate%,55.263,60.526,5.263
+T7 fps3 relax_p1 8.0 FA/h,3.934,3.934,0.0
+T7 spurious0.5 relax_p1 2.5 rate%,37.281,37.807,0.526
+T7 spurious0.5 relax_p1 2.5 FA/h,2.206,1.995,-0.211
+T7 spurious0.5 relax_p1 5.0 rate%,48.07,53.421,5.351
+T7 spurious0.5 relax_p1 5.0 FA/h,4.215,4.445,0.229
+T7 spurious0.5 relax_p1 8.0 rate%,60.263,55.702,-4.561
+T7 spurious0.5 relax_p1 8.0 FA/h,5.541,4.66,-0.88
+T7 spurious0.5 standard 0.0 rate%,36.842,37.719,0.877
+T7 spurious0.5 standard 0.0 FA/h,2.014,1.92,-0.094
+T7 spurious0.5 stea 2.5 rate%,50.351,55.088,4.737
+T7 spurious0.5 stea 2.5 FA/h,2.787,2.782,-0.005
+T7 spurious0.5 stea 5.0 rate%,72.895,70.0,-2.895
+T7 spurious0.5 stea 5.0 FA/h,4.449,4.313,-0.136
+T7 spurious0.5 stea 8.0 rate%,79.298,72.982,-6.316
+T7 spurious0.5 stea 8.0 FA/h,5.658,6.168,0.51
+T7 spurious1.0 relax_p1 2.5 rate%,36.93,37.719,0.789
+T7 spurious1.0 relax_p1 2.5 FA/h,2.323,2.262,-0.061
+T7 spurious1.0 relax_p1 5.0 rate%,40.439,41.053,0.614
+T7 spurious1.0 relax_p1 5.0 FA/h,3.761,3.995,0.234
+T7 spurious1.0 relax_p1 8.0 rate%,55.351,56.053,0.702
+T7 spurious1.0 relax_p1 8.0 FA/h,6.435,5.892,-0.543
+T7 spurious1.0 standard 0.0 rate%,36.842,37.719,0.877
+T7 spurious1.0 standard 0.0 FA/h,2.248,2.201,-0.047
+T7 spurious1.0 stea 2.5 rate%,41.316,47.193,5.877
+T7 spurious1.0 stea 2.5 FA/h,2.693,2.824,0.131
+T7 spurious1.0 stea 5.0 rate%,66.93,68.158,1.228
+T7 spurious1.0 stea 5.0 FA/h,4.852,4.787,-0.066
+T7 spurious1.0 stea 8.0 rate%,73.596,80.526,6.93
+T7 spurious1.0 stea 8.0 FA/h,7.128,7.105,-0.023

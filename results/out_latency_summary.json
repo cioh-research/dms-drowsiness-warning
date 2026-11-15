@@ -1,0 +1,92 @@
+{
+ "ECD >=1 s": {
+  "before": 12,
+  "within30": 9,
+  "within120": 11,
+  "within300": 13,
+  "later": 2,
+  "never": 11,
+  "median_delay_after": 11.34229700000003,
+  "min_followup": 14.895641999999953
+ },
+ "PERCLOS 1 min >=8%": {
+  "before": 3,
+  "within30": 7,
+  "within120": 11,
+  "within300": 12,
+  "later": 2,
+  "never": 21,
+  "median_delay_after": 36.671320500000036,
+  "min_followup": 14.895641999999953
+ },
+ "PERCLOS 1-min relax 5/h": {
+  "before": 23,
+  "within30": 9,
+  "within120": 10,
+  "within300": 10,
+  "later": 0,
+  "never": 5,
+  "median_delay_after": 2.00833700000004,
+  "min_followup": 14.895641999999953
+ },
+ "PERCLOS 3 min >=9%": {
+  "before": 1,
+  "within30": 2,
+  "within120": 5,
+  "within300": 9,
+  "later": 1,
+  "never": 27,
+  "median_delay_after": 115.70900400000002,
+  "min_followup": 14.895641999999953
+ },
+ "PERCLOS 5 min >=10%": {
+  "before": 0,
+  "within30": 1,
+  "within120": 4,
+  "within300": 8,
+  "later": 1,
+  "never": 29,
+  "median_delay_after": 151.46876900000007,
+  "min_followup": 14.895641999999953
+ },
+ "SCA 2.5/h": {
+  "before": 22,
+  "within30": 6,
+  "within120": 9,
+  "within300": 10,
+  "later": 2,
+  "never": 4,
+  "median_delay_after": 34.37597400000004,
+  "min_followup": 14.895641999999953
+ },
+ "SCA 5.0/h": {
+  "before": 27,
+  "within30": 7,
+  "within120": 7,
+  "within300": 9,
+  "later": 0,
+  "never": 2,
+  "median_delay_after": 11.34229700000003,
+  "min_followup": 14.895641999999953
+ },
+ "SCA 8.0/h": {
+  "before": 30,
+  "within30": 4,
+  "within120": 4,
+  "within300": 6,
+  "later": 0,
+  "never": 2,
+  "median_delay_after": 17.83203149999997,
+  "min_followup": 14.895641999999953
+ },
+ "Standards OR": {
+  "before": 14,
+  "within30": 9,
+  "within120": 11,
+  "within300": 13,
+  "later": 2,
+  "never": 9,
+  "median_delay_after": 11.34229700000003,
+  "min_followup": 14.895641999999953
+ }
+}

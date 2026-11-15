@@ -1,0 +1,208 @@
+quantity,value
+T2 row1 warned_n,3.0
+T2 row1 FA/h,0.7025212283113972
+T2 row2 warned_n,1.0
+T2 row2 FA/h,0.2810084913245588
+T2 row3 warned_n,0.0
+T2 row3 FA/h,0.2810084913245588
+T2 row4 warned_n,3.0
+T2 row4 FA/h,0.7025212283113972
+T2 row5 warned_n,0.0
+T2 row5 FA/h,0.1405042456622794
+T2 row6 warned_n,12.0
+T2 row6 FA/h,1.4050424566227944
+T2 row7 warned_n,4.0
+T2 row7 FA/h,0.4215127369868383
+T2 row8 warned_n,2.0
+T2 row8 FA/h,0.2810084913245588
+T2 row9 warned_n,14.0
+T2 row9 FA/h,1.8265551936096327
+T3 stea 2.5 rate%,57.94736842105262
+T3 stea 5.0 rate%,73.6842105263158
+T3 stea 8.0 rate%,79.21052631578948
+T3 relax_p1 2.5 rate%,37.05263157894737
+T3 relax_p1 5.0 rate%,56.00000000000001
+T3 relax_p1 8.0 rate%,56.15789473684211
+T3 relax_multi 2.5 rate%,37.1578947368421
+T3 relax_multi 5.0 rate%,53.0
+T3 relax_multi 8.0 rate%,53.10526315789475
+T3 relax_p30 2.5 rate%,36.89473684210526
+T3 relax_p30 5.0 rate%,57.210526315789465
+T3 relax_p30 8.0 rate%,65.6842105263158
+T3 relax_ecd 2.5 rate%,39.73684210526316
+T3 relax_ecd 5.0 rate%,57.631578947368425
+T3 relax_ecd 8.0 rate%,71.05263157894737
+T3 count30 2.5 rate%,44.1578947368421
+T3 count30 5.0 rate%,50.84210526315789
+T3 count30 8.0 rate%,77.26315789473685
+T3 cusum 2.5 rate%,45.263157894736835
+T3 cusum 5.0 rate%,60.10526315789474
+T3 cusum 8.0 rate%,75.0
+T3 ewma 2.5 rate%,40.473684210526315
+T3 ewma 5.0 rate%,65.3157894736842
+T3 ewma 8.0 rate%,77.6842105263158
+T3 gb 2.5 rate%,42.980000000000004
+T3 gb 5.0 rate%,60.529999999999994
+T3 gb 8.0 rate%,78.95
+T3 lr 2.5 rate%,40.26
+T3 lr 5.0 rate%,69.21000000000001
+T3 lr 8.0 rate%,72.11
+T4 Full SCA 2.5 rate%,57.94736842105262
+T4 Full SCA 5.0 rate%,73.68421052631578
+T4 Full SCA 8.0 rate%,79.21052631578948
+T4 w/o persistence (p = 0) 2.5 rate%,57.8421052631579
+T4 w/o persistence (p = 0) 5.0 rate%,74.26315789473685
+T4 w/o persistence (p = 0) 8.0 rate%,81.36842105263159
+T4 w/o lower bound (d0 = 0) 2.5 rate%,52.73684210526316
+T4 w/o lower bound (d0 = 0) 5.0 rate%,69.36842105263158
+T4 w/o lower bound (d0 = 0) 8.0 rate%,76.0
+T4 w/o ECD-boundary exclusion 2.5 rate%,57.78947368421052
+T4 w/o ECD-boundary exclusion 5.0 rate%,74.94736842105263
+T4 w/o ECD-boundary exclusion 8.0 rate%,79.89473684210527
+T4 w/o duration mark (unit weight) 2.5 rate%,61.0
+T4 w/o duration mark (unit weight) 5.0 rate%,74.78947368421052
+T4 w/o duration mark (unit weight) 8.0 rate%,82.89473684210526
+T4 w/o time decay (event-indexed decay) 2.5 rate%,57.68421052631578
+T4 w/o time decay (event-indexed decay) 5.0 rate%,65.26315789473685
+T4 w/o time decay (event-indexed decay) 8.0 rate%,65.31578947368422
+T4 Boxcar kernel instead of exponential 2.5 rate%,57.631578947368425
+T4 Boxcar kernel instead of exponential 5.0 rate%,75.78947368421053
+T4 Boxcar kernel instead of exponential 8.0 rate%,77.73684210526316
+T4 Fixed λ = 60 s 2.5 rate%,45.78947368421052
+T4 Fixed λ = 60 s 5.0 rate%,71.73684210526315
+T4 Fixed λ = 60 s 8.0 rate%,78.31578947368422
+T4 simplified SCA 2.5 rate%,48.8421052631579
+T4 simplified SCA 5.0 rate%,69.89473684210526
+T4 simplified SCA 8.0 rate%,73.1578947368421
+T5 ms>=1.0 standard rate%,0.0
+T5 ms>=1.0 stea 2.5 rate%,39.35483870967742
+T5 ms>=1.0 stea 5.0 rate%,58.51612903225807
+T5 ms>=1.0 stea 8.0 rate%,66.45161290322581
+T5 ms>=1.0 relax_p1 2.5 rate%,6.709677419354838
+T5 ms>=1.0 relax_p1 5.0 rate%,32.774193548387096
+T5 ms>=1.0 relax_p1 8.0 rate%,32.774193548387096
+T5 ms>=1.0 relax_ecd 2.5 rate%,19.41935483870968
+T5 ms>=1.0 relax_ecd 5.0 rate%,31.290322580645157
+T5 ms>=1.0 relax_ecd 8.0 rate%,51.61290322580645
+T5 ms>=1.0 count30 2.5 rate%,14.967741935483868
+T5 ms>=1.0 count30 5.0 rate%,31.677419354838708
+T5 ms>=1.0 count30 8.0 rate%,61.483870967741936
+T5 ms>=1.0 cusum 2.5 rate%,25.548387096774196
+T5 ms>=1.0 cusum 5.0 rate%,45.74193548387096
+T5 ms>=1.0 cusum 8.0 rate%,62.064516129032256
+T5 ms>=1.0 ewma 2.5 rate%,15.096774193548388
+T5 ms>=1.0 ewma 5.0 rate%,52.19354838709677
+T5 ms>=1.0 ewma 8.0 rate%,64.64516129032258
+T5 ms>=2.0 standard rate%,45.833333333333336
+T5 ms>=2.0 stea 2.5 rate%,67.58333333333333
+T5 ms>=2.0 stea 5.0 rate%,77.74999999999999
+T5 ms>=2.0 stea 8.0 rate%,84.66666666666667
+T5 ms>=2.0 relax_p1 2.5 rate%,45.83333333333333
+T5 ms>=2.0 relax_p1 5.0 rate%,51.74999999999999
+T5 ms>=2.0 relax_p1 8.0 rate%,51.83333333333333
+T5 ms>=2.0 relax_ecd 2.5 rate%,54.666666666666664
+T5 ms>=2.0 relax_ecd 5.0 rate%,69.50000000000001
+T5 ms>=2.0 relax_ecd 8.0 rate%,79.16666666666666
+T5 ms>=2.0 count30 2.5 rate%,52.33333333333333
+T5 ms>=2.0 count30 5.0 rate%,57.333333333333336
+T5 ms>=2.0 count30 8.0 rate%,84.33333333333333
+T5 ms>=2.0 cusum 2.5 rate%,58.16666666666666
+T5 ms>=2.0 cusum 5.0 rate%,73.25
+T5 ms>=2.0 cusum 8.0 rate%,79.91666666666666
+T5 ms>=2.0 ewma 2.5 rate%,58.916666666666664
+T5 ms>=2.0 ewma 5.0 rate%,78.66666666666667
+T5 ms>=2.0 ewma 8.0 rate%,87.0
+T6 H120 drowsy stea 2.5 warned_n (split 0),23.0
+T6 H120 drowsy stea 5.0 warned_n (split 0),28.0
+T6 H120 drowsy stea 8.0 warned_n (split 0),29.0
+T6 H120 drowsy relax_p1 2.5 warned_n (split 0),14.0
+T6 H120 drowsy relax_p1 5.0 warned_n (split 0),21.0
+T6 H120 drowsy relax_p1 8.0 warned_n (split 0),21.0
+T6 H60 drowsy stea 2.5 warned_n (split 0),18.0
+T6 H60 drowsy stea 5.0 warned_n (split 0),24.0
+T6 H60 drowsy stea 8.0 warned_n (split 0),26.0
+T6 H60 drowsy relax_p1 2.5 warned_n (split 0),14.0
+T6 H60 drowsy relax_p1 5.0 warned_n (split 0),20.0
+T6 H60 drowsy relax_p1 8.0 warned_n (split 0),20.0
+T6 H180 drowsy stea 2.5 warned_n (split 0),25.0
+T6 H180 drowsy stea 5.0 warned_n (split 0),30.0
+T6 H180 drowsy stea 8.0 warned_n (split 0),32.0
+T6 H180 drowsy relax_p1 2.5 warned_n (split 0),18.0
+T6 H180 drowsy relax_p1 5.0 warned_n (split 0),23.0
+T6 H180 drowsy relax_p1 8.0 warned_n (split 0),23.0
+T6 H120 nonactive stea 2.5 warned_n (split 0),19.0
+T6 H120 nonactive stea 5.0 warned_n (split 0),26.0
+T6 H120 nonactive stea 8.0 warned_n (split 0),30.0
+T6 H120 nonactive relax_p1 2.5 warned_n (split 0),9.0
+T6 H120 nonactive relax_p1 5.0 warned_n (split 0),17.0
+T6 H120 nonactive relax_p1 8.0 warned_n (split 0),17.0
+T7 clean0 standard 0.0 rate%,36.84210526315789
+T7 clean0 standard 0.0 FA/h,1.8265551936096327
+T7 clean0 stea 2.5 rate%,60.526315789473685
+T7 clean0 stea 2.5 FA/h,2.8100849132455887
+T7 clean0 stea 5.0 rate%,73.68421052631578
+T7 clean0 stea 5.0 FA/h,5.339161335166619
+T7 clean0 stea 8.0 rate%,76.31578947368422
+T7 clean0 stea 8.0 FA/h,6.463195300464854
+T7 clean0 relax_p1 2.5 rate%,36.84210526315789
+T7 clean0 relax_p1 2.5 FA/h,1.8265551936096327
+T7 clean0 relax_p1 5.0 rate%,55.26315789473685
+T7 clean0 relax_p1 5.0 FA/h,3.372101895894706
+T7 clean0 relax_p1 8.0 rate%,55.26315789473685
+T7 clean0 relax_p1 8.0 FA/h,3.372101895894706
+T7 fps2 standard 0.0 rate%,36.84210526315789
+T7 fps2 standard 0.0 FA/h,1.685976968095777
+T7 fps2 stea 2.5 rate%,63.1578947368421
+T7 fps2 stea 2.5 FA/h,2.8099616134929617
+T7 fps2 stea 5.0 rate%,76.31578947368422
+T7 fps2 stea 5.0 FA/h,5.760421307660572
+T7 fps2 stea 8.0 rate%,78.94736842105263
+T7 fps2 stea 8.0 FA/h,7.024904033732405
+T7 fps2 relax_p1 2.5 rate%,36.84210526315789
+T7 fps2 relax_p1 2.5 FA/h,1.685976968095777
+T7 fps2 relax_p1 5.0 rate%,60.526315789473685
+T7 fps2 relax_p1 5.0 FA/h,3.65295009754085
+T7 fps2 relax_p1 8.0 rate%,60.526315789473685
+T7 fps2 relax_p1 8.0 FA/h,3.65295009754085
+T7 fps3 standard 0.0 rate%,31.57894736842105
+T7 fps3 standard 0.0 FA/h,1.96689641779098
+T7 fps3 stea 2.5 rate%,55.26315789473685
+T7 fps3 stea 2.5 FA/h,3.3718224304988227
+T7 fps3 stea 5.0 rate%,78.94736842105263
+T7 fps3 stea 5.0 FA/h,6.462659658456077
+T7 fps3 stea 8.0 rate%,81.57894736842105
+T7 fps3 stea 8.0 FA/h,8.57004867751784
+T7 fps3 relax_p1 2.5 rate%,31.57894736842105
+T7 fps3 relax_p1 2.5 FA/h,2.107389019061764
+T7 fps3 relax_p1 5.0 rate%,55.26315789473685
+T7 fps3 relax_p1 5.0 FA/h,3.93379283558196
+T7 fps3 relax_p1 8.0 rate%,55.26315789473685
+T7 fps3 relax_p1 8.0 FA/h,3.93379283558196
+T7 spurious0.5 relax_p1 2.5 rate%,37.28070175438596
+T7 spurious0.5 relax_p1 2.5 FA/h,2.205916656897787
+T7 spurious0.5 relax_p1 5.0 rate%,48.0701754385965
+T7 spurious0.5 relax_p1 5.0 FA/h,4.215127369868383
+T7 spurious0.5 relax_p1 8.0 rate%,60.26315789473685
+T7 spurious0.5 relax_p1 8.0 FA/h,5.540550753949219
+T7 spurious0.5 standard 0.0 rate%,36.84210526315789
+T7 spurious0.5 standard 0.0 FA/h,2.0138941878260055
+T7 spurious0.5 stea 2.5 rate%,50.35087719298246
+T7 spurious0.5 stea 2.5 FA/h,2.7866675389685422
+T7 spurious0.5 stea 5.0 rate%,72.89473684210527
+T7 spurious0.5 stea 5.0 FA/h,4.449301112638849
+T7 spurious0.5 stea 8.0 rate%,79.29824561403508
+T7 spurious0.5 stea 8.0 FA/h,5.657637625334452
+T7 spurious1.0 relax_p1 2.5 rate%,36.9298245614035
+T7 spurious1.0 relax_p1 2.5 FA/h,2.3230035282830195
+T7 spurious1.0 relax_p1 5.0 rate%,40.43859649122807
+T7 spurious1.0 relax_p1 5.0 FA/h,3.7608303088936794
+T7 spurious1.0 relax_p1 8.0 rate%,55.35087719298245
+T7 spurious1.0 relax_p1 8.0 FA/h,6.4350944513323975
+T7 spurious1.0 standard 0.0 rate%,36.84210526315789
+T7 spurious1.0 standard 0.0 FA/h,2.248067930596471
+T7 spurious1.0 stea 2.5 rate%,41.31578947368421
+T7 spurious1.0 stea 2.5 FA/h,2.692998041860356
+T7 spurious1.0 stea 5.0 rate%,66.92982456140349
+T7 spurious1.0 stea 5.0 FA/h,4.8520799502040495
+T7 spurious1.0 stea 8.0 rate%,73.59649122807016
+T7 spurious1.0 stea 8.0 FA/h,7.128248729932976
